@@ -1,23 +1,7 @@
-[package]
-name = "learning-rust"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-rand = "0.8.5"
-
-[[bin]]
-name = "guessing_game"
-path = "src/rust_book_code/guessing_game/main.rs"
-
-[[bin]]
-name = "first"
-path = "src/too_many_lists_tutorial/first.rs"
-
-[[bin]]
-name = "second"
-path = "src/too_many_lists_tutorial/second.rs"
-
-[[bin]]
-name = "third"
-path = "src/too_many_lists_tutorial/third.rs"
+[workspace]
+members = [
+    "crates/guessing_game",
+    "crates/list_first",
+    "crates/list_second",
+    "crates/list_third",
+]

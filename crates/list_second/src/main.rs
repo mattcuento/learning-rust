@@ -1,4 +1,4 @@
-type Link<T> = Option<Box<Node<T>>>; 
+type Link<T> = Option<Box<Node<T>>>;
 
 pub struct Node<T> {
     elem: T,
