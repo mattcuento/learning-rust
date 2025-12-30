@@ -95,3 +95,32 @@ mod test {
         assert_eq!(list.pop(), None);
     }
 }
+
+pub fn main() {
+    let mut list = List::new();
+
+    println!("Checking empty list behaves right");
+    println!("Pop from empty list: {:?}", list.pop());
+
+    println!("Populating list");
+    list.push(1);
+    list.push(2);
+    list.push(3);
+
+    println!("Check normal removal");
+    println!("Pop from list: {:?}", list.pop());
+    println!("Pop from list: {:?}", list.pop());
+
+
+    println!("Push some more just to make sure nothing's corrupted");
+    list.push(4);
+    list.push(5);
+
+    println!("Check normal removal");
+    println!("Pop from list: {:?}", list.pop());
+    println!("Pop from list: {:?}", list.pop());
+
+    println!("Check exhaustion");
+    println!("Pop from list: {:?}", list.pop());
+    println!("Pop from list: {:?}", list.pop());
+}
