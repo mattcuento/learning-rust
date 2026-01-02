@@ -1,5 +1,5 @@
 [package]
-name = "list_first"
+name = "list_statistics"
 version = "0.1.0"
 edition = "2024"
 

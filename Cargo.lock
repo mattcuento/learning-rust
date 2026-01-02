@@ -27,6 +27,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "learning-rust"
+version = "0.0.0"
+
+[[package]]
 name = "libc"
 version = "0.2.178"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -38,6 +42,10 @@ version = "0.1.0"
 
 [[package]]
 name = "list_second"
+version = "0.1.0"
+
+[[package]]
+name = "list_statistics"
 version = "0.1.0"
 
 [[package]]

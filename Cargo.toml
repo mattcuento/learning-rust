@@ -5,4 +5,34 @@ members = [
     "crates/list_second",
     "crates/list_third",
     "crates/temp_conversion",
+    "crates/list_statistics",
 ]
+
+[package]
+name = "learning-rust"
+resolver = "3"
+edition = "2024"
+
+[[bin]]
+name = "guessing_game"
+path = "crates/guessing_game/src/main.rs"
+
+[[bin]]
+name = "list_first"
+path = "crates/list_first/src/main.rs"
+
+[[bin]]
+name = "list_second"
+path = "crates/list_second/src/main.rs"
+
+[[bin]]
+name = "list_third"
+path = "crates/list_third/src/main.rs"
+
+[[bin]]
+name = "temp_conversion"
+path = "crates/temp_conversion/src/main.rs"
+
+[[bin]]
+name = "list_statistics"
+path = "crates/list_statistics/src/main.rs"
